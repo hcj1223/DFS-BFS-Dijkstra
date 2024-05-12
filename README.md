@@ -9,5 +9,4 @@
 
 ## 2.实现效果
 
-![ ](C:/Users/123/AppData/Roaming/Typora/typora-user-images/image-20240512174945098.png) 
-
+![result](result.png) 
