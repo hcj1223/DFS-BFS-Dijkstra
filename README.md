@@ -1,4 +1,4 @@
-<img src="graph.png" alt="graph" style="zoom:80%;" />
+<img src="Graph.png" alt="graph" style="zoom:80%;" />
 
 ## 1.文件说明
 
