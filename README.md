@@ -1,6 +1,6 @@
 # 基于BFS+Dijkstra算法实现无向有环图的遍历和求最短路径
 
-<img src="graph.png" alt="graph" style="zoom: 80%;" />
+<img src="graph.png" alt="graph" style="zoom:80%;" />
 
 ## 1.文件说明
 

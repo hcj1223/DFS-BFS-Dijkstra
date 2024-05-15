@@ -100,9 +100,12 @@ void bfs(int u, int v)
             for (int j = 0; j < Path[i].size(); j++)
             {
                 vector<int> temp = Path[i][j];
-                temp.push_back(v);
-                if (find(Path[v].begin(), Path[v].end(), temp) == Path[v].end())
-                    Path[v].push_back(temp);
+                if (G[temp.back()][v] != 0x3f3f3f3f)
+                {
+                    temp.push_back(v);
+                    if (find(Path[v].begin(), Path[v].end(), temp) == Path[v].end())
+                        Path[v].push_back(temp);
+                }
             }
         }
     }
